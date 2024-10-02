@@ -4,3 +4,8 @@ require("bundle-networking")
 
 # Bluetooth
 require("aioble")
+
+
+
+# bundles python modules
+freeze("modules")
