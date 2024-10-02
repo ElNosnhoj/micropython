@@ -1,5 +1,13 @@
 cmake_minimum_required(VERSION 3.13)
 
+
+
+set(MICROPY_BOARD NOS_PICO_W)
+
+
+
+
+
 # Set build type to reduce firmware size
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE MinSizeRel)
